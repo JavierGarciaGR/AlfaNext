@@ -12,7 +12,7 @@
 html {
     font-size: 62.5%;
     box-sizing: border-box;
-    scroll-snap-type: y mandatory;
+    /*scroll-snap-type: y mandatory;*/
 }
 *, *:before, *:after {
     box-sizing: inherit;
@@ -147,13 +147,13 @@ h1, h2, h3 {
     align-items: flex-end;
 }
 
-/* Scroll Snap */
+/* Scroll Snap 
 .servicios,
 .navegacion-principal,
 .formulario {
     scroll-snap-align: center;
     scroll-snap-stop: always;
-}
+}*/
 
 /* Servicios */
 @media (min-width: 768px){
